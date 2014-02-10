@@ -65,5 +65,11 @@ $(document).ready(function() {
 		event.preventDefault();
 		checkAnswer();
 	});
-	
+	//click restart to start over
+	$("#restart").click(function() {
+		questionNum = 0;
+		$("#submit").show();
+		$("#next").show();
+		display();
+	});
 });
