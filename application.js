@@ -10,6 +10,7 @@ $(document).ready(function() {
 	
 	$("#submit").hide();
 	$("#next").hide();
+	$("#restart").hide();
 	
 	//display the current question and answer choices
 	function display() {
@@ -45,6 +46,7 @@ $(document).ready(function() {
 		$("#start").hide();
 		$("#submit").show();
 		$("#next").show();
+		$("#restart").show();
 		display();
 	});
 	//click next to move on to next set of question and choices
