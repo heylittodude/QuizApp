@@ -11,12 +11,26 @@
 		<title>QuizApp</title>
 	</head>
 	<body>
-		<div><button class = "buttons" id = "start">Start</button></div>
-		<div class = "questions" id = "question"></div>
-		<div class = "choices" id = "choices"></div>
-		<div id ="ansCheck"></div>
-		<input type="submit" id="submit" name="submit" value="Submit">
-		<button class = "buttons" id = "next">Next</button>
-		<button class = "buttons" id = "restart">Restart</button>
-		
+		<header class = "header">
+			<p class = "headerLeft">Question <span class ="questionNum"></span> of 5</p>
+			<p class = "headerRight"><span class = "result"></span> of 5 correct</p>
+			<p class= "previousAns">Last answer: <span id = "lastOutcome"></span></p>
+		</header>
+		<div class="mainBody">
+			<div class = "startScreen"><h1>Quiz of Randomness!!</h1></div>
+			<div><button class = "buttons" id = "start">Start</button></div>
+			<div class = "questions" id = "question"></div>
+			<div class = "choices"></div>
+			<div id = "resultScreen">
+				<h1 class = "finalTitle">Final Result</h1>
+				<p>Total correct answers: <span class = "result"></span> out of 5.</p>
+				<p>Correctly answered questions are: <span class = "correctAns"></span>.</p>
+			</div>
+			<div id ="ansCheck"></div>
+		</div>
+		<div class = "controls">
+			<input type="submit" class = "buttons" id="submit" name="submit" value="Submit">
+			<button class = "buttons" id = "next">Next</button>
+			<button class = "buttons" id = "restart">Restart</button>
+		</div>
 	</body>

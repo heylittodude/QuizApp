@@ -46,3 +46,115 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*My CSS*/
+body {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 30px;
+}
+header {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-bottom: 5px solid black;
+}
+h1 {
+	font-size: 50px;
+	font-style: italic;
+}
+input {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+label {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.headerLeft {
+	display: inline-block;
+	float: left;
+	padding-left: 10px;
+}
+.headerRight {
+	display: inline-block;
+	float: right;
+	padding-right: 10px;
+}
+.previousAns {
+	text-align: left;
+	padding-top: 35px;
+	padding-left: 10px;
+}
+#lastOutcome {
+	color: #0000FF;
+}
+.mainBody {
+	position: relative;
+	height: 330px;
+	padding-top: 25px;
+
+}
+.questions {
+	margin-bottom: 30px;
+}
+.choices {
+	text-align: left;
+	padding-left: 200px;
+	margin-bottom: 30px;
+}
+#ansCheck {
+	position: absolute;
+	bottom: 10px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	color: red;
+}
+.startScreen {
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+#start {
+	height: 70px;
+	width: 70px;
+	-moz-border-radius: 35px;
+	border-radius: 35px;	
+}
+#start:hover {
+	background-color: #8B8B93;
+	color: white;
+}
+.buttons {
+	border: none;
+	font-family: "Brush Script MT", cursive;
+	font-size: 30px;
+}
+.buttons:focus {
+	outline: none;
+	box-shadow: 0 0 0.5em #8B8B93;
+}
+#submit {
+	height: 2em;
+	width: 4em;
+	-moz-border-radius: 1em 4em 1em 4em;
+	border-radius: 1em 4em 1em 4em;
+	float: left;
+}
+#next {
+	height: 60px;
+	width: 95px;
+	border-radius: 5px;
+	text-align: center;
+}
+#restart {
+	height: 2em;
+	width: 4em;
+	-moz-border-radius: 4em 1em 4em 1em;
+	border-radius: 4em 1em 4em 1em;
+	float: right;
+}
+.finalTitle {
+	padding-bottom: 100px;
+}
