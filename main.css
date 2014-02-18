@@ -122,10 +122,6 @@ label {
 	-moz-border-radius: 35px;
 	border-radius: 35px;	
 }
-#start:hover {
-	background-color: #8B8B93;
-	color: white;
-}
 .buttons {
 	border: none;
 	font-family: "Brush Script MT", cursive;
@@ -135,7 +131,12 @@ label {
 	outline: none;
 	box-shadow: 0 0 0.5em #8B8B93;
 }
+.buttons:hover {
+	background-color: #8B8B93;
+	color: white;
+}
 #submit {
+	display: inline-block;
 	height: 2em;
 	width: 4em;
 	-moz-border-radius: 1em 4em 1em 4em;
@@ -143,12 +144,17 @@ label {
 	float: left;
 }
 #next {
+	display: inline-block;
+	position: absolute;
+	margin-left: 250px;
+	margin-right: 270px;
 	height: 60px;
 	width: 95px;
 	border-radius: 5px;
 	text-align: center;
 }
 #restart {
+	display: inline-block;
 	height: 2em;
 	width: 4em;
 	-moz-border-radius: 4em 1em 4em 1em;

@@ -105,7 +105,6 @@ $(document).ready(function() {
 	});
 	//click submit to call the checkAnswer function
 	$("#submit").click(function(event) {
-		event.preventDefault();
 		checkAnswer();
 	});
 	//click restart to start over
